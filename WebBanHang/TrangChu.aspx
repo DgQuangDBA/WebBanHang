@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- tối ưu mobile-->
     <title>Classical art Shop</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="CSS/TrangChu.css">
@@ -51,8 +52,8 @@
             </div>
             <div class="content">
                 <h3>why choose us?</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas adipisci facere recusandae quis voluptas, sed autem at placeat voluptatum, repellendus, fuga aperiam corporis reprehenderit optio. Labore debitis nihil modi sint.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum inventore nobis ipsum? Necessitatibus, fuga quasi reprehenderit, vero possimus est, alias quis quo eveniet quaerat harum eos quibusdam dolorum facilis dolore.</p>
+                <p>At Classical Art, we believe that art is more than decoration — it is a reflection of history, culture, and creativity. Our collection brings together elegant sculptures, decorative vases, and timeless artistic pieces that add beauty and character to every space.</p>
+                <p>We are passionate about making classical art accessible to everyone. Each piece in our collection is chosen for its unique design, artistic value, and timeless appeal. Whether you are an art enthusiast or simply looking for something special, Classical Art is here to inspire you.</p>
                 <a href="#" class="btn">learn more</a>
             </div>
         </div>
@@ -94,7 +95,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum natus ipsum dicta vero! Ipsa voluptatem commodi libero quos tempore animi voluptates magni optio officiis laboriosam amet, sed nesciunt laborum doloremque.</p>
+                <p>Absolutely beautiful artwork! The attention to detail and craftsmanship exceeded my expectations. Every piece has its own unique charm, bringing a touch of elegance and timeless beauty to my home.</p>
                 <div class="user">
                     <img src="/Picture/review1.jpg" alt="" width="100px">
                     <div class="user-info">
@@ -112,7 +113,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum natus ipsum dicta vero! Ipsa voluptatem commodi libero quos tempore animi voluptates magni optio officiis laboriosam amet, sed nesciunt laborum doloremque.</p>
+                <p>A wonderful collection of classical art and sculptures. I love how each piece reflects creativity, history, and artistic passion. The designs are truly inspiring and make my living space feel more sophisticated.</p>
                 <div class="user">
                     <img src="/Picture/review2.jpg" alt="" width="100px">
                     <div class="user-info">
@@ -130,7 +131,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum natus ipsum dicta vero! Ipsa voluptatem commodi libero quos tempore animi voluptates magni optio officiis laboriosam amet, sed nesciunt laborum doloremque.</p>
+                <p>Classical Art offers an impressive selection of elegant and unique pieces. The beautiful designs and fine details make every artwork feel special. A perfect destination for anyone who appreciates timeless artistic beauty.</p>
                 <div class="user">
                     <img src="/Picture/review3.jpg" alt="" width="100px">
                     <div class="user-info">

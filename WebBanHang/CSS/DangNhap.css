@@ -123,3 +123,18 @@ form .form-contents label {
     form .form-contents label:hover {
         text-decoration: underline;
     }
+@media (max-width: 768px) {
+    .body {
+        padding: 15px;
+    }
+
+    .container {
+        width: 95%;
+        padding: 30px 20px;
+    }
+
+        .container .form-contents .login-form,
+        .container .form-contents .signup-form {
+            width: 100%;
+        }
+}

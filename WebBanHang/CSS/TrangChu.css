@@ -179,11 +179,11 @@ header {
 .products .box-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.5 rem;
+    gap: 1.5rem;
 }
 
     .products .box-container .box {
-        width: 300px;
+        width: 100%;
         flex: 1 1 30rem;
         box-shadow: 0 .5rem 1.5rem rgba(0,0, 0, .1);
         border-radius: .5rem;
@@ -453,10 +453,164 @@ header {
 @media (max-width:991px) {
 
     html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .about .row .video-container {
+        flex: 1 1 40rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+
+    header .fa-bars {
+        display: block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0,0, 0, .1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .navbar a {
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgba(0,0, 0, .1);
+        display: block;
+    }
+
+    header {
+        padding: 1.5rem 2rem;
+    }
+
+        header .logo {
+            font-size: 2.5rem;
+        }
+
+        header .icons a {
+            font-size: 2.2rem;
+            margin-left: 1rem;
+        }
+
+    .home .content h3 {
+        font-size: 4rem;
+    }
+
+    .home .content span {
+        font-size: 2.5rem;
+    }
+
+    .about .row .video-container {
+        flex: 1 1 40rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .about .row .video-container video {
+            height: auto;
+        }
+
+    .products .box-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+        .products .box-container .box {
+            width: 100%;
+        }
+
+            .products .box-container .box .image img {
+                width: 100%;
+                height: 18rem;
+                object-fit: contain;
+            }
+
+            .products .box-container .box .content {
+                padding: 1rem;
+            }
+
+                .products .box-container .box .content h3 {
+                    font-size: 1.6rem;
+                }
+
+                .products .box-container .box .content .price {
+                    font-size: 1.8rem;
+                }
+
+    .review .box-container {
+        display: block;
+    }
+
+        .review .box-container .box {
+            margin-bottom: 1.5rem;
+        }
+
+    .footer .box-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+        .footer .box-container .box {
+            width: 100%;
+        }
+
+            .footer .box-container .box h3 {
+                font-size: 2rem;
+            }
+
+            .footer .box-container .box a {
+                font-size: 1.4rem;
+            }
+}
+
+@media (max-width:500px) {
+
+    html {
         font-size: 50%;
     }
 
     .heading {
         font-size: 3rem;
+    }
+
+    .products .box-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer .box-container {
+        grid-template-columns: 1fr;
+    }
+
+    .home .content h3 {
+        font-size: 3.5rem;
+    }
+
+    .home .content span {
+        font-size: 2.2rem;
     }
 }

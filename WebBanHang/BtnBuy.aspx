@@ -3,9 +3,75 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- tối ưu mobile-->
     <title>Classical art Shop</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="CSS/TrangChu.css">
+
+    
+
+<style>
+    /* Căn giữa khu vực ảnh QR */
+    section#P {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 100px 15px 25px;
+        height: auto;
+        min-height: 0;
+        box-sizing: border-box;
+    }
+
+    /* Căn giữa khu vực ảnh QR */
+section#P {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 120px 15px 25px;
+    height: auto;
+    min-height: 0;
+    box-sizing: border-box;
+}
+
+/* Kích thước ảnh QR */
+section#P > img {
+    display: block;
+    width: auto;
+    max-width: 350px;
+    max-height: calc(100vh - 140px);
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+    /* Điện thoại */
+    @media (max-width: 768px) {
+        section#P {
+            padding: 90px 15px 20px;
+        }
+
+        section#P > img {
+            max-width: 100%;
+            max-height: calc(100vh - 130px);
+        }
+    }    
+    
+        body {
+            min-height: 100vh;
+            width: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+    /* Footer luôn nằm dưới cùng */
+        section.footer {
+            margin-top: auto;
+            width: 100%;
+        }
+</style>
+
+
 
 </head>
 <body runat="server">
