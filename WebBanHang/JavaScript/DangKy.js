@@ -2,13 +2,12 @@
     var name = document.getElementById("txtName").value.trim();
     var number = document.getElementById("txtnumber").value.trim();
     var password = document.getElementById("txtpassword").value.trim();
-    var xuatxu = document.getElementById("txtxuatxu").value.trim();
 
 
     var errname = document.getElementById("err-name");
     var errnumber = document.getElementById("err-number");
     var errpassword = document.getElementById("err-password");
-    var errpassword = document.getElementById("err-xuatxu");
+    
 
 
     // Biến check để kiểm tra xem tất cả các trường hợp nhập liệu có hợp lệ hay không
@@ -46,20 +45,6 @@
         document.getElementById("txtpassword").value = null;
     } else {
         errpassword.innerHTML = "";
-    }
-
-    // Kiểm tra trường xuất xứ
-    if (xuatxu == "") {
-        errxuatxu.innerHTML = "Nhập xuât xứ mặt hàng";
-        check = false;
-        document.getElementById("txtxuatxu").focus();
-    } else if (xuatxu.length < 6) {
-        errxuatxu.innerHTML = "Phai co it nhau 6 ky tu";
-        check = false;
-        document.getElementById("txtxuatxu").focus();
-    } else {
-        errxuatxu.innerHTML = "";
-    }
 
     // Nếu có lỗi trong bất kỳ trường nào, trả về false và không cho phép đăng ký
     if (check == false) {

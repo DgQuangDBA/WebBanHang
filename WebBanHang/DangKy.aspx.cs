@@ -26,7 +26,6 @@ namespace WebBanHang
             string name = Request.Form["txtName"].Trim();
             string number = Request.Form["txtnumber"].Trim();
             string password = Request.Form["txtpassword"].Trim();
-            string xuatxu = Request.Form["txtxuatxu"].Trim();
 
             // Biến kiểm tra tính hợp lệ của đăng ký
             bool check = true;
@@ -52,7 +51,7 @@ namespace WebBanHang
             if (check)
             {
                 // Tạo người dùng mới và thêm vào danh sách người dùng
-                Objects.User newUser = new Objects.User(number, password, name);
+                Objects.User newUser = new Objects.User(number, name, password);
                 listUser.Add(newUser);
 
                 // Cập nhật lại danh sách người dùng trong Application

@@ -27,34 +27,16 @@
                             <input id="txtnumber" name="txtnumber" type="text" placeholder="Enter your number" runat="server" />
                         </div>
                         <div id="err-number" style="font-size: 1.5rem; color: red;"></div>
-                        
-                        
-                        
-                        <!--THI-->
                         <div class="input-box">
                             <i class="fas fa"></i>
-                            <input id="txtpassword" name="txtpassword" type="password" placeholder="Nhập xuât xứ mặt hàng" runat="server" />
+                            <input id="txtpassword" name="txtpassword" type="password" placeholder="Enter your password" runat="server" />
                         </div>
                         <div id="err-password" style="font-size: 1.5rem; color: red;"></div>
-
-
-                        <!--THI-->
-                        <div class="input-box">
-                            <i class="fas fa"></i>
-                            <input id="xuatxu" name="txtxuatxu" type="text" placeholder="Nhập xuât xứ mặt hàng" runat="server" />
-                        </div>
-                        <div id="err-xuatxu" style="font-size: 1.5rem; color: red;"></div>
-
-
-
-                        
-
-
-
                         <div id="error" style="font-size: 1.5rem; color: red;" runat="server"></div>
                         <div class="button input-box">
                             <asp:Button id="btn" runat="server" Text="SIGN UP" OnClick="btnRegister_onClick" />
                         </div>
+                        <a href="GioHang.aspx">GioHang.aspx</a>
                         <div class="text">Already have an account?<a href="DangNhap.aspx"> LogIn Now </a></div>
                     </div>
                 </div>
