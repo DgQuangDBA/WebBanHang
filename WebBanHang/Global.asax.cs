@@ -29,7 +29,7 @@ namespace WebBanHang
 
             List<Objects.User> listUser = new List<Objects.User>();
             listUser.Add(new Objects.User("0839898004", "Admin", "123456789"));
-            listUser.Add(new Objects.User("0856726686", "Quang", "123456789"));
+            listUser.Add(new Objects.User("0856726686", "Quang", "1"));
             Application["listUser"] = listUser;
 
             List<Objects.products> listSPMua = new List<Objects.products>();

@@ -37,8 +37,8 @@
                         <div class="button input-box">
                             <asp:Button id="btn" runat="server" Text="SIGN UP" OnClick="btnRegister_onClick" />
                         </div>
-                        <a href="GioHang.aspx">GioHang.aspx</a>
-                        <div class="text">Already have an account?<a href="DangNhap.aspx"> LogIn Now </a></div>
+                        <a href="GioHang.aspx"></a>
+                        <div class="text">Already have an account?<a href="DangNhap.aspx"> Login Now </a></div>
                     </div>
                 </div>
             </div>
